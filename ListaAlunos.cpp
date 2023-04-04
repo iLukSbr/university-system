@@ -49,8 +49,7 @@ void ListaAlunos::incluaAluno(Aluno* pa){
   }
 }
 
-void ListaAlunos::listeAlunos()
-{
+void ListaAlunos::listeAlunos(){
   Aluno *pauxAl = NULL;
   Elemento < Aluno > *pauxEL = NULL;
   pauxEL = pElAlunoPrim;
